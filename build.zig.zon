@@ -1,0 +1,19 @@
+.{
+    .name = "zig-nng",
+    .version = "0.0.0",
+    .paths = .{
+        "src",
+        "build.zig",
+        "build.zig.zon",
+    },
+    .dependencies = .{
+        // .mbedtls = .{
+        //     .url = "https://github.com/Mbed-TLS/mbedtls/archive/refs/tags/v2.28.8.tar.gz",
+        //     .hash = "12200130d7fef0dd3b2d375c378c7dcd11f64eb64cd9ab1bc33397eaafa44e30bc65",
+        // },
+        .nng = .{
+            .url = "https://github.com/nanomsg/nng/archive/refs/tags/v1.8.0.tar.gz",
+            .hash = "12209663cb709a7a07f25cabc04e1b6cde4f7f4710456a39d1854c3d8b71bc1a116f",
+        },
+    },
+}
